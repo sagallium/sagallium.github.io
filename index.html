@@ -54,7 +54,26 @@
                 text-shadow: 0 0 10px #ff69b4, 0 0 20px #ff69b4;
             }
         }
-               
+
+        .icon {
+            width: 120px;
+            height: 120px;
+            margin: 20px 0;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 4px solid #ff69b4;
+            box-shadow: 0 0 15px rgba(255, 105, 180, 0.7);
+            position: relative;
+        }
+        
+        .icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
         .links {
             display: flex;
             flex-wrap: wrap;
@@ -115,7 +134,9 @@
     <canvas class="background-animation"></canvas>
     <div class="container">
         <h1>さがりうむ</h1>
-    </div>
+        <div class="icon">
+            <img src="12oico.png" alt="アイコン" />
+        </div>
         <div class="links">
             <a href="https://www.youtube.com/@sagallium" class="link">YouTube</a>
             <a href="https://www.nicovideo.jp/user/131935209" class="link">niconico</a>
